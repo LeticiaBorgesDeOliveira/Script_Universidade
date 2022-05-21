@@ -1,7 +1,7 @@
 <h1 align="center">Script_Universidade</h1>
 
 <h1 align="center">
-    <img src="LogoSample_ByTailorBrands.jpg">
+    <img src="Logo Universidade.jpg">
     <p>Script em SQL criado para um sistema de uma  universidade fictícia. 💻</p>
 </h1>
 
@@ -10,7 +10,7 @@
 
 ## 💻 Tecnologias utilizadas neste projeto 
 <h1 align="center">
-    <img src="logo-mysql-170x115.png">
+    <img src="Logo Mysql.png">
 </h1>
 
 - [MySQK Community Server](https://dev.mysql.com/downloads/installer/)
