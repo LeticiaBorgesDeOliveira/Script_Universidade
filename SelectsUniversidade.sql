@@ -2,20 +2,19 @@
 --SELECT COM OPERADORES IN
 
 select * from aluno
-where nome in ('jorge','Khalil','Xanaina')
+where nome in ('Lizzo','Harry','Alicia')
 
 --SELECT COM OPERADOR LIKE%%
 
 select * from aluno 
-where nome like 'x%a'
+where nome like 'a%a'
 
 select * from aluno 
-where nome like '_orge'
+where nome like '_izzo'
 
 /*arredondando a media de um valor*/
-select nome, round(avg(valor_pago_curso),2) as valor 
-from aluno 
-where idAluno in (1,2,3); 
+select round(avg(valor_pago_curso),2) as "Média do valor dos cursos"
+from aluno_curso
 
 /*contando os alunos por estado */
 select uf, count(*) as total
@@ -40,7 +39,7 @@ select idAluno,
 	   timestampdiff(year, data_nascimento,curdate()) as idade 
 from aluno;
 
-/*relatorio com aniversariantes */
+/*relatorio com aniversariantes do dia*/
 select idAluno,
 	   nome,
 	   data_nascimento, 
